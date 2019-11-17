@@ -10,6 +10,7 @@ namespace HttpRequestsWithCSharp
 
         static void Main(string[] args)
         {
+            var test = HttpRequestsWithRestSharp.ExecutePost("login?mode=login");
             BaseLoginModel loginModel = new BaseLoginModel();
             HttpRequests.Post(LoginUrl, CookieContainer, loginModel);
         }

@@ -1,32 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vlad Gagarin\\Desktop\\HttpRequestsWithCSharp\\HttpRequestsWithCSharp.csproj": {}
+    "/Users/vlad/Desktop/HttpRequestsWithCSharp/HttpRequestsWithCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vlad Gagarin\\Desktop\\HttpRequestsWithCSharp\\HttpRequestsWithCSharp.csproj": {
+    "/Users/vlad/Desktop/HttpRequestsWithCSharp/HttpRequestsWithCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vlad Gagarin\\Desktop\\HttpRequestsWithCSharp\\HttpRequestsWithCSharp.csproj",
+        "projectUniqueName": "/Users/vlad/Desktop/HttpRequestsWithCSharp/HttpRequestsWithCSharp.csproj",
         "projectName": "HttpRequestsWithCSharp",
-        "projectPath": "C:\\Users\\Vlad Gagarin\\Desktop\\HttpRequestsWithCSharp\\HttpRequestsWithCSharp.csproj",
-        "packagesPath": "C:\\Users\\Vlad Gagarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vlad Gagarin\\Desktop\\HttpRequestsWithCSharp\\obj\\",
+        "projectPath": "/Users/vlad/Desktop/HttpRequestsWithCSharp/HttpRequestsWithCSharp.csproj",
+        "packagesPath": "/Users/vlad/.nuget/packages/",
+        "outputPath": "/Users/vlad/Desktop/HttpRequestsWithCSharp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vlad Gagarin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/vlad/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://artifacts.ipreo.com/api/nuget/nuget-local": {},
-          "https://ipreo.jfrog.io/ipreo/api/nuget/nuget-local": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -47,19 +44,21 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
