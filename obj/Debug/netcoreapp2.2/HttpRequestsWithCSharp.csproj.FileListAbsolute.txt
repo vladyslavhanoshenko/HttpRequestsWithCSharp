@@ -1,11 +1,10 @@
-/Users/vlad/Desktop/HttpRequestsWithCSharp/bin/Debug/netcoreapp2.2/HttpRequestsWithCSharp.deps.json
-/Users/vlad/Desktop/HttpRequestsWithCSharp/bin/Debug/netcoreapp2.2/HttpRequestsWithCSharp.runtimeconfig.json
-/Users/vlad/Desktop/HttpRequestsWithCSharp/bin/Debug/netcoreapp2.2/HttpRequestsWithCSharp.runtimeconfig.dev.json
-/Users/vlad/Desktop/HttpRequestsWithCSharp/bin/Debug/netcoreapp2.2/HttpRequestsWithCSharp.dll
-/Users/vlad/Desktop/HttpRequestsWithCSharp/bin/Debug/netcoreapp2.2/HttpRequestsWithCSharp.pdb
-/Users/vlad/Desktop/HttpRequestsWithCSharp/obj/Debug/netcoreapp2.2/HttpRequestsWithCSharp.csprojAssemblyReference.cache
-/Users/vlad/Desktop/HttpRequestsWithCSharp/obj/Debug/netcoreapp2.2/HttpRequestsWithCSharp.csproj.CoreCompileInputs.cache
-/Users/vlad/Desktop/HttpRequestsWithCSharp/obj/Debug/netcoreapp2.2/HttpRequestsWithCSharp.AssemblyInfoInputs.cache
-/Users/vlad/Desktop/HttpRequestsWithCSharp/obj/Debug/netcoreapp2.2/HttpRequestsWithCSharp.AssemblyInfo.cs
-/Users/vlad/Desktop/HttpRequestsWithCSharp/obj/Debug/netcoreapp2.2/HttpRequestsWithCSharp.dll
-/Users/vlad/Desktop/HttpRequestsWithCSharp/obj/Debug/netcoreapp2.2/HttpRequestsWithCSharp.pdb
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\bin\Debug\netcoreapp2.2\HttpRequestsWithCSharp.deps.json
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\bin\Debug\netcoreapp2.2\HttpRequestsWithCSharp.runtimeconfig.json
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\bin\Debug\netcoreapp2.2\HttpRequestsWithCSharp.runtimeconfig.dev.json
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\bin\Debug\netcoreapp2.2\HttpRequestsWithCSharp.dll
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\bin\Debug\netcoreapp2.2\HttpRequestsWithCSharp.pdb
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\obj\Debug\netcoreapp2.2\HttpRequestsWithCSharp.csprojAssemblyReference.cache
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\obj\Debug\netcoreapp2.2\HttpRequestsWithCSharp.AssemblyInfoInputs.cache
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\obj\Debug\netcoreapp2.2\HttpRequestsWithCSharp.AssemblyInfo.cs
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\obj\Debug\netcoreapp2.2\HttpRequestsWithCSharp.dll
+C:\Users\Vlad Gagarin\Desktop\HttpRequestsWithCSharp\obj\Debug\netcoreapp2.2\HttpRequestsWithCSharp.pdb

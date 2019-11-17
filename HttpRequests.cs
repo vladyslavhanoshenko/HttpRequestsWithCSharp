@@ -1,6 +1,8 @@
 using System;
 using System.Net;
 using System.IO;
+using System.Text;
+using HttpRequestsWithCSharp.Helpers;
 
 namespace HttpRequestsWithCSharp
 {
@@ -21,10 +23,11 @@ namespace HttpRequestsWithCSharp
             {
                 pageSource = sr.ReadToEnd();
             }
+
             return pageSource;
         }
 
-        public static string Post(string url, CookieContainer cookies, BaseLoginModel model)
+        public static HttpWebResponse Post(string url, CookieContainer cookies, BaseLoginModel model)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "POST";
@@ -32,11 +35,23 @@ namespace HttpRequestsWithCSharp
             request.ContentType = "application/x-www-form-urlencoded";
             request.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
             Stream postStream = request.GetRequestStream();
-            
+            byte[] postBytes = Encoding.ASCII.GetBytes(DataTransformationHelper.CreateStringForPostRequest(model));
+            postStream.Write(postBytes, 0, postBytes.Length);
+            postStream.Dispose();
 
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            cookies.Add(response.Cookies);
+            var test1 = response.ResponseUri;
+            var test = (int)response.StatusCode;
 
+            StreamReader sr = new StreamReader(response.GetResponseStream());
+            string pageSource = sr.ReadToEnd();
+            sr.Dispose();
 
-            return new string("asda");
+            if (response.ResponseUri.PathAndQuery.Equals("/login?mode=welcome"))
+                return response;
+            else
+                throw new Exception("reponse uri is empty");
         }
     }
 }

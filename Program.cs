@@ -4,38 +4,14 @@ namespace HttpRequestsWithCSharp
 {
     class Program
     {
-        
-
-        
-        public CookieContainer CookieContainer{get;set;}
+        public static CookieContainer CookieContainer { get; set; } = new CookieContainer();
+        public static string LoginUrl = "http://testing-ground.scraping.pro/login?mode=login";
+        public static string RedirectedUrl = "http://testing-ground.scraping.pro/login?mode=welcome";
 
         static void Main(string[] args)
         {
-            BaseLoginModel loginModel = new BaseLoginModel(){
-                UserName = "test",
-                Password = "123"
-            };
-            Program pr = new Program();
-
-            BaseLoginModel newModel = loginModel;
-            pr.TestObject(newModel);
-
-
-
-
-
-
-            Console.WriteLine(loginModel.UserName);
-            Console.WriteLine(loginModel.Password);
-        }
-
-
-
-        public void TestObject(BaseLoginModel model)
-        {
-            model.UserName = "NewTest";
-            model.Password = "NewPass";
-
+            BaseLoginModel loginModel = new BaseLoginModel();
+            HttpRequests.Post(LoginUrl, CookieContainer, loginModel);
         }
     }
 }
