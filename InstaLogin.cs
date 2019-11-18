@@ -17,8 +17,7 @@ namespace HttpRequestsWithCSharp
         
         public static void Login()
         {
-            InstaLoginModel test = new InstaLoginModel();
-            HttpRequests.Get()
+           
         }
     }
 }
